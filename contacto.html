@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>primer trabajo 2023</title>
+    <link rel="stylesheet" href="diseños.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <h1>Estamos aqui!!!!</h1>
+    </header>
+    <nav>
+        <div class="ir">
+        <a href="index1.html">Volver Inicio</a>
+    </div>
+    </nav>
+
+        <div class="mapa"><iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.833704356929!2d-58.51863468560886!3d-34.6083663804583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7d1a40c8283%3A0xdc8bf19e417a7f63!2sAv.%20Francisco%20Beir%C3%B3%204653%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1679784613926!5m2!1ses!2sar"
+                width="450" height="300" style="border: 2px;;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <h5>Horarios</h5>
+        <dl>
+            <dt>lunes</dt>
+            <dd>8 a 13hs</dd>
+            <dd>14 a 18hs</dd>
+            <dt>martes</dt>
+            <dd>13 a 17hs</dd>
+            <dt>miercoles</dt>
+            <dd>10 a 12-hs</dd>
+            <dd>14 a 20hs</dd>
+            <dt>jueves</dt>
+            <dd>14 a 20hs</dd>
+            <dt>viernes</dt>
+            <dd>13 a 20 hs</dd>
+            <dt>sabado</dt>
+            <dd>8 a 20hs</dd>
+            <dt>domingos</dt>
+            <dd>8 a 20hs</dd>
+
+
+
+        </dl>
+
+        
+    
+        <br><br>
+        <div>
+            <Fieldset>
+                <legend>QUEREMOS CONOCERTE</legend>
+                <form action="formulaform.html">
+                    <label for="Nombre">NOMBRE</label>
+                    <input type="text" name=nombre id="Nombre" placeholder="nombre completo"><br><br>
+                    <label for="apellido">APELLIDO</label>
+                    <input type="text" name="apellido" id="apellido" placeholder="apellido completo"><br><br>
+                    <label for="estudios">ESTUDIOS</label><br><br>
+                    <input type="checkbox" name="primaria" id="primaria">
+                    <label for="primaria">PRIMARIA</label>
+                    <input type="checkbox" name="secundaria" id="secundaria">
+                    <label for="secundaria">SECUNDARIA</label>
+                    <input type="checkbox" name="terciario" id="terciario">
+                    <label for="terciario">TERCIARIO</label><br><br>
+                    <label for="SEXO"></label><br>
+                    <label for="MUJER">MUJER</label>
+                    <input type="radio" name="SEXO" id="MUJER" value="mujer">
+                    <label for="HOMBRE">HOMBRE</label>
+                    <input type="radio" name="SEXO" id="HOMBRE" value="hombre">
+            </Fieldset>
+            <br><br>
+            <fieldset>
+                <legend>SE PARTE DE NUESTRA COMUNIDAD</legend>
+                <label for="usuario">USUARIO</label>
+                <input type="text" name="usuario" id="usuario" maxlength="5" required title="usuario">
+                <br><br>
+                <label for="clave">CLAVE</label>
+                <input type="password" maxlength="5" required name="clave" id="clave">
+            </fieldset>
+            <br><br>
+            <Fieldset>
+                <legend>CONTANOS DONDE VIVIS</legend>
+                <label for="zona">LUGAR DE RESIDENCIA</label>
+                <select name="zona" id="zona">
+                    <option value="sur">sur</option>
+                    <option value="norte">norte</option>
+                    <option value="este">este</option>
+                    <option value="oeste">oeste</option>
+                </select>
+            </Fieldset>
+            <Fieldset>
+                <legend>QUEREMOS ESCUCHARTE</legend>
+                <textarea name="comentario" cols="30" rows="10" placeholder="contanos tu experiencia"></textarea>
+            </Fieldset>
+            <input type="submit" value="ENVIAR">
+            <input type="reset" value="LIMPIAR">
+
+
+
+            </form>
+        </div>
+    
+</body>
